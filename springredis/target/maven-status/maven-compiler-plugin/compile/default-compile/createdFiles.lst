@@ -1,0 +1,6 @@
+com/practice/springredis/entity/User.class
+com/practice/springredis/SpringRedisApplication.class
+com/practice/springredis/service/StringRedisService.class
+com/practice/springredis/config/RedisConfiguration.class
+com/practice/springredis/controller/HelloController.class
+com/practice/springredis/service/RedisService.class
