@@ -14,17 +14,18 @@ public class SpringbootRedisApplicationTests {
 
     @Autowired
     RedisService redisService;
+
     @Test
     public void contextLoads() {
     }
 
     @org.junit.Test
-    public void setObject(){
-        redisService.setObj("a",new User("张三",20));
+    public void setObject() {
+        redisService.setObj("a", new User("张三", 20));
     }
 
     @org.junit.Test
-    public void getObject(){
+    public void getObject() {
         System.out.println(redisService.getObject("a"));
     }
 

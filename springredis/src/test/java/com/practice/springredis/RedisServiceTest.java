@@ -1,4 +1,4 @@
-package springredis;
+package com.practice.springredis;
 
 import com.practice.springredis.entity.User;
 import com.practice.springredis.service.RedisService;

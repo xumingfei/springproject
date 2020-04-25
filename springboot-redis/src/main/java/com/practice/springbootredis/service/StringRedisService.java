@@ -14,16 +14,15 @@ public class StringRedisService {
     @Autowired
     StringRedisTemplate stringRedisTemplate;
 
-    public void setString(String key,String value){
+    public void setString(String key, String value) {
         logger.info("------>[Redis set start]");
-        stringRedisTemplate.opsForValue().set(key,value);
+        stringRedisTemplate.opsForValue().set(key, value);
     }
 
     public String getString(String key) {
         logger.info("---->redis get start");
         return stringRedisTemplate.opsForValue().get(key);
     }
-
 
 
 }

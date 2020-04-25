@@ -107,7 +107,7 @@ public class RedisConfiguration extends CachingConfigurerSupport {
     }
 
     @Bean
-    public HashOperations<String,String,Object> hashOperations(RedisTemplate<String,Object> redisTemplate){
+    public HashOperations<String, String, Object> hashOperations(RedisTemplate<String, Object> redisTemplate) {
         return redisTemplate.opsForHash();
     }
 

@@ -1,4 +1,4 @@
-package springredis;
+package com.practice.springredis;
 
 import com.practice.springredis.service.StringRedisService;
 import org.junit.runner.RunWith;
