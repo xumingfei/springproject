@@ -1,0 +1,11 @@
+org:
+  quartz:
+    scheduler:
+      instanceName: DefaultQuartzScheduler
+      instanceId: auto
+      rmi:
+        export: false
+        proxy: false
+      wrapJobExecutionInUserTransaction: false
+
+
