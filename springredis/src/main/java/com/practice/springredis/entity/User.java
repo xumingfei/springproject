@@ -2,6 +2,9 @@ package com.practice.springredis.entity;
 
 import java.io.Serializable;
 
+/**
+ * 用户
+ */
 public class User implements Serializable {
     private static final long serialVersionUID = 4673905001214008471L;
 
